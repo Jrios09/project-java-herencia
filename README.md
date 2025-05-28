@@ -1,18 +1,48 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Nombre del proyecto_  Project-java-herencia
+┌────────────────────┐
+│ ComponenteVehicular│  ← Clase base
+└────────────────────┘
+         ▲
+         │
+ ┌───────┼────────────────────────────────────────────────┐
+ │       │               │              │                 │
+ ▼       ▼               ▼              ▼                 ▼
+Motor  Transmision   Neumatico        Chasis         SistemaFrenos
 
-## Folder Structure
+cd "c:\Users\usuario\OneDrive - Universidad Nacional de Colombia\Escritorio\SENA\Trimestre 4\JAVA\project-java-herencia\src\" && javac App.java && java App
 
-The workspace contains two folders by default, where:
+==== MOTOR ====
+C�digo: M001
+Fabricante: Bosch
+Cilindros: 4
+Potencia: 120 HP
+Motor encendido con 4 cilindros y 120 HP.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+==== TRANSMISI�N ====
+C�digo: T001
+Fabricante: ZF
+Tipo: Autom�tica
+N�mero de marchas: 6
+Cambiando a la marcha 3...
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+==== NEUM�TICO ====
+C�digo: N001
+Fabricante: Michelin
+Tama�o: 17 pulgadas
+Presi�n: 32.5 PSI
+Presi�n �ptima.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+==== CHASIS ====
+C�digo: C001
+Fabricante: Toyota
+Tipo de chasis: Monocasco
+Peso: 250.0 kg
+Carga m�xima estimada: 875.0 kg
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+==== SISTEMA DE FRENOS ====
+C�digo: F001
+Fabricante: Brembo
+Sistema ABS: S�
+Tipo de discos: Discos ventilados
+Sistema ABS operativo.
